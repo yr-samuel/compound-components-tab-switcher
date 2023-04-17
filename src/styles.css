@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
