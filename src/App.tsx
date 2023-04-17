@@ -14,8 +14,8 @@ export default function App() {
         </Tabs>
       </div>
       <ChosenPanel is={tab}>
-        <div>Historia do Hate</div>
-        <div>Felipe Neto</div>
+        <div>TabPanel 1</div>
+        <div>TabPanel 2</div>
       </ChosenPanel>
     </div>
   );
