@@ -6,7 +6,7 @@ jobs:
   callme:
     runs-on: ubuntu-latest
     steps:
-      # - name: Clone
-      #   uses: actions/checkout@v4
+      - name: Clone
+        uses: actions/checkout@v4
       - name: Install dependencies
         run: yarn
