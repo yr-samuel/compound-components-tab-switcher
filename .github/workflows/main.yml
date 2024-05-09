@@ -1,4 +1,4 @@
-name: Learning github actions
+name: learning-github-actions
 
 on: [create]
 
