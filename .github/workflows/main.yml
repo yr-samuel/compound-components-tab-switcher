@@ -1,0 +1,14 @@
+name: Learning github actions
+
+on: 
+  create
+
+jobs:
+  callme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        uses: actions/checkout@v4
+        run: yarn
+      
+      
