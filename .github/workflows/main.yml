@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printing secret
-        run: echo ${{ secrets.TESTING_SECRET }}
+        run: echo ${{ vars.TESTING_VARIABLE }}
       - name: Clone
         uses: actions/checkout@v4
       - name: Install dependencies
