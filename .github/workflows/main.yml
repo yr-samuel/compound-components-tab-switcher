@@ -1,6 +1,6 @@
 name: learning-github-actions
 
-on: [create, delete]
+on: [create, delete, workflow_dispatch]
 
 jobs:
   callme:
