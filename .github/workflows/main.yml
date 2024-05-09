@@ -1,7 +1,6 @@
 name: Learning github actions
 
-on: 
-  create
+on: [create]
 
 jobs:
   callme:
