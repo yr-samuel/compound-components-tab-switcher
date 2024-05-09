@@ -1,6 +1,6 @@
 name: learning-github-actions
 
-on: [create]
+on: create
 
 jobs:
   callme:
