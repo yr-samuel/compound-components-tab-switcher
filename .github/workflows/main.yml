@@ -1,6 +1,7 @@
 name: learning-github-actions
 
-on: create
+on: 
+  create:
 
 jobs:
   callme:
@@ -8,9 +9,9 @@ jobs:
     steps:
       - name: Clone
         uses: actions/checkout@v4
-      # - name: Setup node
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 20
-      # - name: Install dependencies
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
         run: yarn
