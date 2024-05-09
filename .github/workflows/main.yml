@@ -1,7 +1,6 @@
 name: learning-github-actions
 
-on: 
-  create:
+on: [create, delete]
 
 jobs:
   callme:
@@ -9,9 +8,5 @@ jobs:
     steps:
       - name: Clone
         uses: actions/checkout@v4
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
       - name: Hello Bash
-        run: echo 'Hello, bash!'
+        run: yarn
